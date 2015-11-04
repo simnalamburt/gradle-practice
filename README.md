@@ -4,7 +4,8 @@ Gradle Practice
 My own [gradle][] practice!
 
 ```console
-gradle -q hello
+gradle jar
+java -jar build/libs/gradle-practice.jar
 ```
 
 [gradle]: https://gradle.org
